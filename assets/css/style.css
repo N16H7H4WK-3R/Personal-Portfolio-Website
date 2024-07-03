@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/aboutAryan.png") top right no-repeat;
+  background: #040404 url("../img/bground_sx.jpg") top right no-repeat;
   background-size: cover;
   background-position: center top;
   left: 0;
@@ -1047,7 +1047,7 @@ section .container {
   cursor: pointer;
 }
 
-.contact .info-box .email:hover{
+.contact .info-box .email:hover {
   color: #18d26e;
 }
 
@@ -1055,6 +1055,6 @@ section .container {
   cursor: pointer;
 }
 
-.contact .info-box .phone:hover{
+.contact .info-box .phone:hover {
   color: #18d26e;
 }

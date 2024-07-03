@@ -267,3 +267,17 @@ function makeCall() {
 }
 
 phoneElement.addEventListener('click', makeCall);
+
+
+// age calculator and display
+
+var dob = new Date("2003-07-14");
+var today = new Date();
+var age = today.getFullYear() - dob.getFullYear();
+var m = today.getMonth() - dob.getMonth();
+if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+  age--;
+}
+document.getElementById("current_age").innerHTML = age;
+
+// age calculator and display end
