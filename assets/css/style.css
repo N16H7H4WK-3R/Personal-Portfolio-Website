@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFUK0Udc1GAK6bgw.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrLPTucXtAKPY.woff2') format('woff2');
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
